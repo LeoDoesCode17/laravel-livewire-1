@@ -16,11 +16,8 @@
     <a href="{{ route('register') }}">Register here</a>
     <button type="submit" class="btn btn-primary">Login</button>
     
-    @if ($errorMessage)
-        <div style="color: red;">{{ $errorMessage }}</div>
-    @endif
-    @if ($successMessage)
-        <div style="color: green;">{{ $successMessage }}</div>
+    @if ($form->errorMessage)
+        <div style="color: red;">{{ $form->errorMessage }}</div>
     @endif
 </form>
 

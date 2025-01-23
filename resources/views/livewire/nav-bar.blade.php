@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <livewire:nav-link title="Home" :active="request()->is('home')" routeName="home"/>
+          <livewire:nav-link title="Home" :active="request()->is('/')" routeName="home"/>
         </li>
         <li class="nav-item">
           <livewire:nav-link title="About" :active="request()->is('about')" routeName="about"/>
