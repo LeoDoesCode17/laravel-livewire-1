@@ -10,7 +10,6 @@
   </head>
   <body>
     @livewireScripts
-    <livewire:nav-bar/>
     <main class="py-5">
       <div class="container">
         {{ $slot }}
